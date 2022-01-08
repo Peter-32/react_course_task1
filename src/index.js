@@ -6,15 +6,15 @@ import faker from 'faker';
 
 const App = function() {
   return (
-      <div>
+      <div className="ui container comments">
           <ApprovalCard>
-              <Comment name="Cheryl" time="2021-01-03 00:00:00" content="hello" image_src={faker.image.image()} className="ui container comment"></Comment>
+              <Comment name="Cheryl" time="Today at 4:55pm" content="hello" image_src={faker.image.image()} className="ui container comment"></Comment>
           </ApprovalCard>
           <ApprovalCard>
-              <Comment name="Peter" time="2021-01-02 00:00:00" content="hi" image_src={faker.image.image()} className="ui container comment"></Comment>
+              <Comment name="Peter" time="Today at 2:41pm" content="hi" image_src={faker.image.image()} className="ui container comment"></Comment>
           </ApprovalCard>
           <ApprovalCard>
-              <Comment name="Jithin" time="2021-01-01 00:00:00" content=":)" image_src={faker.image.image()} className="ui container comment"></Comment>
+              <Comment name="Jithin" time="Today at 1:10pm" content=":)" image_src={faker.image.image()} className="ui container comment"></Comment>
           </ApprovalCard>
       </div>
   );
