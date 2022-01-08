@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import faker from 'faker';
 
 const Comment = function(props) {
     return (
@@ -13,11 +14,11 @@ const Comment = function(props) {
                   <div className="metadata">
                       <span className="date">{props.time}</span>
                   </div>
-                  <div className="text">{props.comment}</div>
+                  <div className="text">{props.content}</div>
               </div>
           </div>
       </div>
   );
 }
 
-export Comment;
+export default Comment;
